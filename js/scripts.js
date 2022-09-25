@@ -1,9 +1,13 @@
-function Order() {
+function Order(name) {
+  this.name = name;
   this.pizzas = {};
 }
 
-function Pizza(name, toppings, size) {
-  this.name = name;
+Order.prototype.addPizzaToOrder = function(pizza) {
+  this.pizzas[this.name] = pizza;
+}
+
+function Pizza(toppings, size) {
   this.toppings = toppings;
   this.size = size;
 }
