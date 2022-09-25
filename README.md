@@ -30,9 +30,31 @@
 ## <div align="center"> TDD </div>
     Describe Order()
 
-    Test: It should store pizza orders
-    Code: let order = new Order
-    Expected Output: List of pizza orders
+    Test: 
+      "It should store pizza orders."
+    Code: 
+      let order = new Order
+    Expected Output: 
+      List of pizza orders
+
+    Describe: Pizza()
+    Test: 
+      "It should hold properties of user's pizza order"
+    Code: 
+      let pizza = new Pizza("Sam", ["pepperoni", "anchovies"], "large", "4")
+    Expected Output: 
+      name:Sam, toppings:pepperoni, anchovies, size: large, price: 4
+
+    Test: 
+    Code: 
+    Expected Output:
+
+
+
+    Describe: 
+    Test: 
+    Code: 
+    Expected Output:
 <p>&nbsp;</p>
 
 #### License
