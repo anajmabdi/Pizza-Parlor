@@ -49,10 +49,10 @@
     Code: order.addPizzaToOrder(pizza);
     Expected Output: Sam: properties of pizza
 
-    Describe: 
-    Test: 
-    Code: 
-    Expected Output:
+    Describe: pizzaCost()
+    Test: "It should give the pizza order a price."
+    Code: pizza.pizzaCost()
+    Expected Output: 12
 
 
 
