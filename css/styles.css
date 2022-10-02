@@ -1,0 +1,31 @@
+
+h1 {
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 550%;
+  color: rgb(176, 81, 62);
+  border: solid;
+  margin-bottom: 0px;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(239, 177, 173);
+}
+
+.jumbotron {
+  background-color: rgb(239, 177, 173);
+}
+
+.toppings {
+  size: 50%;
+}
+
+.userinput {
+  width: auto;
+  border: solid, red;
+}
+
+.hidden {
+  display: none;
+}
