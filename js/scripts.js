@@ -34,18 +34,11 @@ let name = document.getElementById("order-name").value;
 let phoneNumber = document.getElementById("phone-number").value;
 let order = new Order(name, phoneNumber);
 
-let list0fToppings = [];
 let topping = document.querySelectorAll('input[name=topping]:checked');
-topping.forEach(function(element) {
-  list0fToppings.push(element);
-});
-
 let size = document.querySelector('input[name=size]:checked').value;
-let pizza = new Pizza(list0fToppings, size);
-console.log(pizza);
+let pizza = new Pizza(topping, size);
 pizza.pizzaCost();
 order.addPizzaToOrder(pizza);
-
 document.getElementById("price").removeAttribute("class");
 document.getElementById("cost").innerText = pizza.pizzaCost();
 }
